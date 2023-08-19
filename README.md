@@ -2,6 +2,10 @@
 Learn and Develop How to ingest data from S3 into Transactional Data lake through event driven approach using Glue and SQS queue and DLQ
 ![image](https://github.com/soumilshah1995/Event-Driven-S3-Glue-Transactional-Lake/assets/39345855/71571771-49d4-4ccc-ba8d-a8a91e4a643f)
 
+# Step by Step guides 
+* https://www.linkedin.com/pulse/mastering-event-driven-data-ingestion-guide-using-glue-soumil-shah
+
+* 
 # SQS Policy 
 ```
 {
@@ -476,7 +480,7 @@ def process_message(messages, file_format='json'):
 
 
 def main():
-    queue_url = 'https://sqs.us-east-1.amazonaws.com/043916019468/customer_queue'
+    queue_url = 'QUEUE URL GOES HERE'
 
     poller = Poller(queue_url)
 
