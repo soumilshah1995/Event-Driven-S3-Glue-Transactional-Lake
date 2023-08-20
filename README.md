@@ -1,19 +1,18 @@
 # Event-Driven-S3-Glue-Transactional-Lake
 
 Learn and Develop How to ingest data from S3 into Transactional Data lake through event driven approach using Glue and SQS queue and DLQ
-
+---------------------------------
 # Batch oriented Pipeline 
 ![image](https://github.com/soumilshah1995/Event-Driven-S3-Glue-Transactional-Lake/assets/39345855/71571771-49d4-4ccc-ba8d-a8a91e4a643f)
-
+---------------------------------
 # Stream oriented pipeline
 ![sourcer drawio](https://github.com/soumilshah1995/Event-Driven-S3-Glue-Transactional-Lake/assets/39345855/fa10cd01-3f95-4f05-9746-9149b3ac4de4)
-
-
+---------------------------------
 
 # Step by Step guides 
 * https://www.linkedin.com/pulse/mastering-event-driven-data-ingestion-guide-using-glue-soumil-shah
 
-* 
+---------------------------------
 # SQS Policy 
 ```
 {
@@ -41,7 +40,7 @@ Learn and Develop How to ingest data from S3 into Transactional Data lake throug
 }
 ```
 
-
+---------------------------------
 # Python File That generates data into RAW ZONE 
 * Make sure to set ENV files 
 ```
